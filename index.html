@@ -10,8 +10,8 @@
 
   <polymer-element name="match-example">
     <template>
-      <polymer-media-query query="{{query}}" queryMatches="{{matches}}"></polymer-media-query>
-      My query of "{{query}}" {{matches ? "matches" : "doesn't match"}}
+      <polymer-media-query query="{{query}}" queryMatches="{{qMatches}}"></polymer-media-query>
+      My query of "{{query}}" {{qMatches ? "matches" : "doesn't match"}}
     </template>
     <script>
       Polymer('match-example', {
